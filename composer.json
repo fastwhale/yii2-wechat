@@ -1,0 +1,26 @@
+{
+    "name": "fastwhale/yii2-wechat",
+    "type": "yii2-extension",
+    "description": "Fastwhale SCRM System Yii2 wechat SDK\nThis sdk must used in fastwhale scrm system",
+    "keywords": ["yii2", "wechat", "weixin", "sdk", "fastwhale", "scrm"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/fastwhale/yii2-wechat/issues",
+        "wiki": "https://github.com/fastwhale/yii2-wechat/wiki",
+        "source": "https://github.com/fastwhale/yii2-wechat"
+    },
+    "authors": [
+        {
+            "name": "Fast Whale",
+            "email": "op@mail.pigcms.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fastwhale\\wechat\\sdk\\": ""
+        }
+    }
+}
