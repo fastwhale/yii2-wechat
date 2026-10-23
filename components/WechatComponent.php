@@ -1,13 +1,13 @@
 <?php
 namespace fastwhale\wechat\sdk\components;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * 微信
  * @package fastwhale\wechat\sdk\components
  */
-class WechatComponent extends Object
+class WechatComponent extends BaseObject
 {
     /**
      * @var BaseWechat
